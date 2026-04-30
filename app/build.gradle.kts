@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace   = "com.docmorph.app"
-    compileSdk  = 35
+    compileSdk  = 34
 
     defaultConfig {
         applicationId   = "com.docmorph.app"
         minSdk          = 26          // Android 8.0 — PRD §7.2
-        targetSdk       = 35
+        targetSdk       = 34
         versionCode     = 1
         versionName     = "1.0.0"
 

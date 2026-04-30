@@ -12,7 +12,7 @@ coroutines             = "1.8.1"
 datastore              = "1.1.1"
 itext7                 = "7.2.5"
 pdfbox-android         = "2.0.27.0"
-androidpdfviewer       = "3.2.0-beta.1"
+androidpdfviewer       = "3.2.0-beta.3"
 coil                   = "2.6.0"
 accompanist            = "0.34.0"
 core-ktx               = "1.13.1"
@@ -67,7 +67,7 @@ coroutines-android             = { group = "org.jetbrains.kotlinx",   name = "ko
 datastore-preferences          = { group = "androidx.datastore",       name = "datastore-preferences", version.ref = "datastore" }
 
 # PDF Libraries
-androidpdfviewer               = { group = "com.github.barteksc",      name = "android-pdf-viewer",    version.ref = "androidpdfviewer" }
+androidpdfviewer               = { group = "com.github.mhiew",         name = "android-pdf-viewer",    version.ref = "androidpdfviewer" }
 pdfbox-android                 = { group = "com.tom-roush",            name = "pdfbox-android",        version.ref = "pdfbox-android" }
 
 # Image Loading

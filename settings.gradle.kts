@@ -17,6 +17,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jcenter.bintray.com") }
         // AndroidPdfViewer is hosted on JitPack
         maven { url = uri("https://jitpack.io") }
     }
