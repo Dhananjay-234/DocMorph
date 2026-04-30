@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+        Exclude the Room database from cloud backup — recent files reference
+        device-specific content URIs that are not portable across devices.
+    -->
+    <exclude domain="database" path="docmorph.db" />
+    <exclude domain="database" path="docmorph.db-shm" />
+    <exclude domain="database" path="docmorph.db-wal" />
+</full-backup-content>

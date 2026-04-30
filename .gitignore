@@ -1,0 +1,53 @@
+# ── Gradle ────────────────────────────────────────────────────────────────────
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ── Android Studio / IntelliJ ─────────────────────────────────────────────────
+*.iml
+.idea/
+*.iws
+*.ipr
+out/
+.DS_Store
+
+# ── Kotlin ────────────────────────────────────────────────────────────────────
+*.class
+*.kotlin_module
+
+# ── Local properties (API keys, SDK path) ─────────────────────────────────────
+local.properties
+keystore.properties
+
+# ── Signing keystores — NEVER commit these ───────────────────────────────────
+*.jks
+*.keystore
+
+# ── Generated files ───────────────────────────────────────────────────────────
+app/src/main/assets/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ── Proguard mapping (keep for crash reporting in release; exclude for MVP) ───
+# mapping.txt
+
+# ── Test results ──────────────────────────────────────────────────────────────
+test-results/
+
+# ── Coverage reports ──────────────────────────────────────────────────────────
+jacoco/
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+.git

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">DocMorph</string>
+    <string name="app_description">Open-source PDF Editor</string>
+
+    <!-- Home -->
+    <string name="home_title">DocMorph</string>
+    <string name="home_open_pdf">Open PDF</string>
+    <string name="home_recent_files">Recent Files</string>
+    <string name="home_no_files">No PDFs opened yet</string>
+    <string name="home_no_files_hint">Tap the button below to open your first PDF</string>
+
+    <!-- Viewer -->
+    <string name="viewer_search_hint">Search in document…</string>
+    <string name="viewer_page_indicator">%1$d / %2$d</string>
+
+    <!-- Menu options (PRD §5.1 C) -->
+    <string name="menu_edit">Edit</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_save_as">Save As…</string>
+    <string name="menu_export">Export…</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_properties">Properties</string>
+    <string name="menu_help">Help</string>
+
+    <!-- Editor -->
+    <string name="editor_editing">Editing</string>
+    <string name="editor_save_success">Saved successfully</string>
+    <string name="editor_add_text">Add Text</string>
+    <string name="editor_rotate_cw">Rotate 90° CW</string>
+    <string name="editor_rotate_ccw">Rotate 90° CCW</string>
+    <string name="editor_delete_page">Delete Page</string>
+    <string name="editor_delete_page_confirm">Delete page %1$d? This cannot be undone.</string>
+
+    <!-- Export -->
+    <string name="export_as">Export As</string>
+    <string name="export_pdf">PDF Document</string>
+    <string name="export_pdf_desc">Save as PDF file</string>
+    <string name="export_png">PNG Image</string>
+    <string name="export_png_desc">Current page as PNG</string>
+    <string name="export_jpeg">JPEG Image</string>
+    <string name="export_jpeg_desc">Current page as JPEG</string>
+    <string name="export_txt">Plain Text</string>
+    <string name="export_txt_desc">Extract all text as TXT</string>
+
+    <!-- Tools -->
+    <string name="tool_text">Text</string>
+    <string name="tool_draw">Draw</string>
+    <string name="tool_highlight">Highlight</string>
+    <string name="tool_strikethrough">Strikethrough</string>
+    <string name="tool_rectangle">Rectangle</string>
+    <string name="tool_circle">Circle</string>
+    <string name="tool_line">Line</string>
+    <string name="tool_comment">Comment</string>
+    <string name="tool_eraser">Eraser</string>
+
+    <!-- Errors -->
+    <string name="error_open_failed">Failed to open file</string>
+    <string name="error_save_failed">Failed to save file</string>
+    <string name="error_export_failed">Failed to export file</string>
+
+    <!-- Accessibility -->
+    <string name="cd_back">Back</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_undo">Undo</string>
+    <string name="cd_redo">Redo</string>
+    <string name="cd_save">Save</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    DocMorph splash logo — a stylised PDF document with a pen overlay,
+    representing "editing". Sized at 108×108 dp for the adaptive icon safe zone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Document body -->
+    <path
+        android:pathData="M24,16 L72,16 L84,28 L84,92 L24,92 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#BBDEFB"
+        android:strokeWidth="2" />
+
+    <!-- Folded corner -->
+    <path
+        android:pathData="M72,16 L72,28 L84,28 Z"
+        android:fillColor="#BBDEFB" />
+
+    <!-- Text lines -->
+    <path
+        android:pathData="M34,44 L74,44"
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M34,54 L74,54"
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M34,64 L60,64"
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Pen / edit indicator -->
+    <path
+        android:pathData="M68,74 L80,62 L86,68 L74,80 Z"
+        android:fillColor="#42A5F5" />
+    <path
+        android:pathData="M80,62 L84,58 L90,64 L86,68 Z"
+        android:fillColor="#1565C0" />
+    <path
+        android:pathData="M68,74 L65,82 L73,79 Z"
+        android:fillColor="#90CAF9" />
+
+</vector>
