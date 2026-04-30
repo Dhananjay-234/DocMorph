@@ -538,7 +538,3 @@ private fun ToolButton(
     }
 }
 
-// ─── Page-changed bridge helper (called from AndroidView update) ──────────────
-
-fun EditorViewModel.onPageChanged(page: Int) =
-    _uiState.value.let { /* forward to VM */ }

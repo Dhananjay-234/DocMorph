@@ -14,6 +14,7 @@ import com.tom_roush.pdfbox.pdmodel.PDPage
 import com.tom_roush.pdfbox.pdmodel.PDPageContentStream
 import com.tom_roush.pdfbox.pdmodel.common.PDRectangle
 import com.tom_roush.pdfbox.pdmodel.font.PDType1Font
+import com.tom_roush.pdfbox.rendering.ImageType
 import com.tom_roush.pdfbox.rendering.PDFRenderer
 import com.tom_roush.pdfbox.text.PDFTextStripper
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -194,7 +195,7 @@ class PdfRepositoryImpl @Inject constructor(
         context.contentResolver.openInputStream(sourceUri)!!.use { input ->
             val pdDocument = PDDocument.load(input)
             val renderer   = PDFRenderer(pdDocument)
-            val bitmap     = renderer.renderImageWithDPI(pageIndex, 150f, android.graphics.Bitmap.Config.ARGB_8888)
+            val bitmap     = renderer.renderImageWithDPI(pageIndex, 150f, ImageType.ARGB)
             context.contentResolver.openOutputStream(destUri)!!.use { out ->
                 val compressFormat = if (format == "png") Bitmap.CompressFormat.PNG
                                      else                Bitmap.CompressFormat.JPEG

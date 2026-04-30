@@ -66,6 +66,8 @@ class EditorViewModel @Inject constructor(
 
     fun onTotalPagesKnown(count: Int) = _uiState.update { it.copy(totalPages = count) }
 
+    fun onPageChanged(page: Int) = _uiState.update { it.copy(currentPage = page) }
+
     // ─── Tool selection ───────────────────────────────────────────────────────
 
     fun onToolSelected(tool: EditTool) = _uiState.update {
